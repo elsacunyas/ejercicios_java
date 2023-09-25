@@ -23,6 +23,11 @@ public class Main {
             case "37" -> new Ejercicio37().eje37();
             case "38" -> new Ejercicio38().eje38();
             case "47" -> new Ejercicio47().eje47();
+            case "48" -> new Ejercicio48().eje48();
+            case "50" -> new Ejercicio50().eje50();
+            case "55" -> new Ejercicio55().eje55();
+            case "60" -> new Ejercicio60().eje60();
+            case "71" -> new Ejercicio71().eje71();
             default -> System.out.println("ejercicio no existe");
         }
     }
